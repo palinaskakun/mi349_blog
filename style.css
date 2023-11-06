@@ -1,0 +1,32 @@
+/* type selectors: body, h1, p */
+
+html {
+    background: #e3e3e3;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+/* id selector */
+#blog {
+    border-top: 1px dotted #ccc;
+}
+
+/* class selector */
+.blog-post {
+    border-bottom: 1px dotted #ccc;
+}
