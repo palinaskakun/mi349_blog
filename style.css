@@ -1,32 +1,106 @@
-/* type selectors: body, h1, p */
-
-html {
-    background: #e3e3e3;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
-    margin: 40px;
-    color: #242424;
-    border-top: 10px solid #242424;
-    background: #fff;
-}
-
-h1 {
-    font-size: 3em;
+body, h1, h2, h3, p, ul, li {
     margin: 0;
+    padding: 0;
 }
 
-p {
-    line-height: 1.4em;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-/* id selector */
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+header p {
+    margin-left: 20px;
+    color: #777;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 #blog {
-    border-top: 1px dotted #ccc;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* class selector */
 .blog-post {
-    border-bottom: 1px dotted #ccc;
+    flex: 0.7;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+label, input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
 }
