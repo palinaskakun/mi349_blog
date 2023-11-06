@@ -4,17 +4,12 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-/* header */
-header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
 }
 
 header h1 {
