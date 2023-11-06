@@ -1,2 +1,3 @@
-# boilerplate
-Basic HTML and CSS setup for simple web design
+MI 349 blog
+
+https://snazzy-parfait-1f669c.netlify.app
